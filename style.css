@@ -3,18 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: white;
+}
 h1{
-    font-size: 50px;
+    display: inline-block;
+    height: 2px;
+    font-size: 30px;
 }
 section#logo,img{
     height: 4rem;
-    margin-top: .5rem;
-    margin-left: .5rem;
     vertical-align: top;
+    align-self: auto;
 }
 .section#logo,h1{
-    display: inline-block;
     padding-top: 0.8rem;
     padding-left: 3px;
     vertical-align: middle;
+}
+body{
+    background-color: grey;
+}
+main{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.task{
+    background-color: rgb(17, 150, 202);
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    margin-left: auto;
 }
