@@ -123,3 +123,8 @@ main{
     padding-left: 30px;
     padding-bottom:25px;   
 }
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
