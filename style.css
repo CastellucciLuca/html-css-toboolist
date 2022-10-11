@@ -5,11 +5,14 @@
 }
 header{
     background-color: #fff;
+    padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
     display: inline-block;
     height: 2px;
     font-size: 30px;
+    height: 30px;
 }
 section#logo,img{
     height: 4rem;
@@ -22,26 +25,35 @@ section#logo,img{
     vertical-align: middle;
 }
 body{
-    background-color: grey;
+    background-color:lightgrey;   
 }
 main{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
     width: 70%;
     margin: 0 auto;
     margin-top: 20px;
 }
 .task{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(17, 150, 202);
     color: #fff;
     border-width: 0px;
     border-radius: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin: auto;
 }
 .sectionn{
+    font-family: Arial, Helvetica, sans-serif;
+    display: auto;
     background-color: #fff;
     color: lightgray;
     border-style: solid;
     border-color: gray;
     border-radius: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin: auto;
 }
 .check{
     color: rgb(10, 196, 10);
@@ -57,4 +69,57 @@ main{
     width: 50px;
     border-radius: 50%;
     border: 1px solid rgba(255, 0, 0, 0.911);
+}
+.editional{
+    background-color: rgb(17, 150, 202);
+    color: #fff;
+    border-width: 0px;
+    border-radius: 0.2rem;
+}
+.goal{
+    background-color: rgb(171, 17, 218);
+    color: #fff;
+    border-width: 0px;
+    border-radius: 0.2rem;
+}
+.recruiting{
+    background-color: green;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 0.2rem;
+}
+.mobile{
+    background-color: orange;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 0.2rem;
+}
+.website{
+    background-color: rgb(223, 101, 186);
+    color: #fff;
+    border-width: 0px;
+    border-radius: 0.2rem;
+}
+.sales{
+    background-color: rgb(108, 228, 92);
+    color: #fff;
+    border-width: 0px;
+    border-radius: 0.2rem;
+}
+.task-section{
+    padding-left: 30px;
+    padding-bottom:25px;
+
+}
+.new-task{
+    padding-left: 30px;
+    padding-bottom:25px;
+}
+.today{
+    padding-left: 30px;
+    padding-bottom:25px;
+}
+.upcoming{
+    padding-left: 30px;
+    padding-bottom:25px;   
 }
